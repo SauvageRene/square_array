@@ -1,7 +1,8 @@
-def square_array(array)
-  squared = [] #Calls on array 
-  array.each { |element| squared << element ** 2 }
-   # ** is the operator for exponent. Choose 2 because 'squared'
-
-  squared # need to return values squared 
+def square_array(elements)
+  array=[]
+  elements.each do |element| 
+    array << element ** 2
+  end
+    array
 end
+
